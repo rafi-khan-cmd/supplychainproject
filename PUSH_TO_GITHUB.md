@@ -6,8 +6,8 @@ Your project is ready to push to GitHub! Follow these steps:
 
 1. Go to [GitHub.com](https://github.com) and sign in
 2. Click the **"+"** icon in the top right → **"New repository"**
-3. Repository name: `supply-chain-digital-twin` (or your preferred name)
-4. Description: `Supply Chain Digital Twin - Full-stack simulation platform with Angular, Spring Boot, Snowflake, and Databricks`
+3. Repository name: `supply-chain-digital` (or your preferred name)
+4. Description: `Supply Chain Digital - Full-stack simulation platform with Angular, Spring Boot, Snowflake, and Databricks`
 5. **Visibility**: Choose Public (for portfolio) or Private
 6. **DO NOT** check "Initialize with README" (you already have one)
 7. Click **"Create repository"**
@@ -20,7 +20,7 @@ After creating the repository, GitHub will show you commands. Use these:
 cd /Users/rafiulalamkhan/SupplyProject
 
 # Add remote (replace YOUR_USERNAME with your GitHub username)
-git remote add origin https://github.com/YOUR_USERNAME/supply-chain-digital-twin.git
+git remote add origin https://github.com/YOUR_USERNAME/supply-chain-digital.git
 
 # Push to GitHub
 git push -u origin main
@@ -31,7 +31,7 @@ git push -u origin main
 If you have SSH keys set up with GitHub:
 
 ```bash
-git remote add origin git@github.com:YOUR_USERNAME/supply-chain-digital-twin.git
+git remote add origin git@github.com:YOUR_USERNAME/supply-chain-digital.git
 git push -u origin main
 ```
 
@@ -51,13 +51,13 @@ git push -u origin main
 Update your portfolio with:
 
 ```markdown
-## Supply Chain Digital Twin
+## Supply Chain Digital
 
 **Tech Stack**: Angular, Spring Boot, Snowflake, Databricks, Docker, Kubernetes
 
 A comprehensive supply chain simulation platform for scenario analysis and optimization.
 
-- **GitHub**: [View Repository](https://github.com/YOUR_USERNAME/supply-chain-digital-twin)
+- **GitHub**: [View Repository](https://github.com/YOUR_USERNAME/supply-chain-digital)
 - **Features**: Scenario builder, Monte Carlo simulations, real-time analytics
 - **Architecture**: Microservices with async job processing
 ```
@@ -67,7 +67,7 @@ A comprehensive supply chain simulation platform for scenario analysis and optim
 ### If you get "remote origin already exists":
 ```bash
 git remote remove origin
-git remote add origin https://github.com/YOUR_USERNAME/supply-chain-digital-twin.git
+git remote add origin https://github.com/YOUR_USERNAME/supply-chain-digital.git
 ```
 
 ### If you need to authenticate:

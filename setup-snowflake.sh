@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Snowflake Setup Script
-# This script helps you set up Snowflake for the Supply Chain Digital Twin
+# This script helps you set up Snowflake for the Supply Chain Digital
 
 echo "=========================================="
-echo "Snowflake Setup for Supply Chain Digital Twin"
+echo "Snowflake Setup for Supply Chain Digital"
 echo "=========================================="
 echo ""
 

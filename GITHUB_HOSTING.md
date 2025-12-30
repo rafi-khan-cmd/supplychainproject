@@ -1,6 +1,6 @@
 # Hosting on GitHub
 
-This guide explains how to host your Supply Chain Digital Twin project on GitHub.
+This guide explains how to host your Supply Chain Digital project on GitHub.
 
 ## Option 1: Code Repository Only (Recommended for Portfolio)
 
@@ -12,19 +12,19 @@ Simply push your code to GitHub as a repository. This is perfect for showcasing 
    ```bash
    git init
    git add .
-   git commit -m "Initial commit: Supply Chain Digital Twin"
+   git commit -m "Initial commit: Supply Chain Digital"
    ```
 
 2. **Create GitHub Repository**:
    - Go to GitHub.com
    - Click "New Repository"
-   - Name it (e.g., `supply-chain-digital-twin`)
+   - Name it (e.g., `supply-chain-digital`)
    - **Don't** initialize with README (you already have one)
    - Click "Create repository"
 
 3. **Push to GitHub**:
    ```bash
-   git remote add origin https://github.com/YOUR_USERNAME/supply-chain-digital-twin.git
+   git remote add origin https://github.com/YOUR_USERNAME/supply-chain-digital.git
    git branch -M main
    git push -u origin main
    ```
@@ -44,9 +44,9 @@ You can host the Angular frontend on GitHub Pages (free static hosting).
    ```bash
    cd frontend
    npm install
-   ng build --configuration production --base-href /supply-chain-digital-twin/
+   ng build --configuration production --base-href /supply-chain-digital/
    ```
-   (Replace `supply-chain-digital-twin` with your repo name)
+   (Replace `supply-chain-digital` with your repo name)
 
 2. **Deploy to GitHub Pages**:
    - Go to your GitHub repository
@@ -81,12 +81,12 @@ You can host the Angular frontend on GitHub Pages (free static hosting).
          - name: Build
            run: |
              cd frontend
-             npm run build -- --base-href /supply-chain-digital-twin/
+             npm run build -- --base-href /supply-chain-digital/
          - name: Deploy
            uses: peaceiris/actions-gh-pages@v3
            with:
              github_token: ${{ secrets.GITHUB_TOKEN }}
-             publish_dir: ./frontend/dist/supply-chain-digital-twin
+             publish_dir: ./frontend/dist/supply-chain-digital
    ```
 
 ## Option 3: Full Stack Deployment
@@ -113,7 +113,7 @@ For a fully functional deployed app, you'll need:
 3. Import your GitHub repository
 4. Set root directory: `frontend`
 5. Build command: `npm run build`
-6. Output directory: `dist/supply-chain-digital-twin`
+6. Output directory: `dist/supply-chain-digital`
 7. Add environment variable: `API_URL` = your backend URL
 
 #### Backend on Railway:
@@ -152,14 +152,14 @@ For a fully functional deployed app, you'll need:
 ## Example Portfolio Integration:
 
 ```markdown
-## Supply Chain Digital Twin
+## Supply Chain Digital
 
 **Tech Stack**: Angular, Spring Boot, Snowflake, Databricks, Docker, Kubernetes
 
 A comprehensive supply chain simulation platform for scenario analysis and optimization.
 
 - [Live Demo](https://your-app.vercel.app)
-- [GitHub Repository](https://github.com/YOUR_USERNAME/supply-chain-digital-twin)
+- [GitHub Repository](https://github.com/YOUR_USERNAME/supply-chain-digital)
 - [Documentation](./README.md)
 ```
 
@@ -173,10 +173,10 @@ git init
 git add .
 
 # Commit
-git commit -m "Initial commit: Supply Chain Digital Twin application"
+git commit -m "Initial commit: Supply Chain Digital application"
 
 # Add remote (replace with your repo URL)
-git remote add origin https://github.com/YOUR_USERNAME/supply-chain-digital-twin.git
+git remote add origin https://github.com/YOUR_USERNAME/supply-chain-digital.git
 
 # Push
 git push -u origin main

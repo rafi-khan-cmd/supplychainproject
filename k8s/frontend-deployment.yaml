@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: frontend
-  namespace: supplychain-digital-twin
+  namespace: supplychain-digital
 spec:
   replicas: 2
   selector:
@@ -35,7 +35,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: frontend
-  namespace: supplychain-digital-twin
+  namespace: supplychain-digital
 spec:
   selector:
     app: frontend

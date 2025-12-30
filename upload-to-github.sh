@@ -55,7 +55,7 @@ CHANGES=$(git status --short)
 if [ -n "$CHANGES" ]; then
     echo ""
     echo -e "${BLUE}💾 Committing changes...${NC}"
-    git commit -m "Initial commit: Supply Chain Digital Twin project
+    git commit -m "Initial commit: Supply Chain Digital project
 
 - Backend: Spring Boot application
 - Frontend: Angular application

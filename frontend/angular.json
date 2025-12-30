@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "supply-chain-digital-twin": {
+    "supply-chain-digital": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/supply-chain-digital-twin",
+            "outputPath": "dist/supply-chain-digital",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -57,10 +57,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "supply-chain-digital-twin:build:production"
+              "buildTarget": "supply-chain-digital:build:production"
             },
             "development": {
-              "buildTarget": "supply-chain-digital-twin:build:development"
+              "buildTarget": "supply-chain-digital:build:development"
             }
           },
           "defaultConfiguration": "development"

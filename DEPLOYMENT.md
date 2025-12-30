@@ -81,20 +81,20 @@ kubectl apply -f k8s/namespace.yaml
 # PostgreSQL
 kubectl create secret generic postgres-secret \
   --from-literal=password=your-password \
-  -n supplychain-digital-twin
+  -n supplychain-digital
 
 # Snowflake
 kubectl create secret generic snowflake-secret \
   --from-literal=url=your-url \
   --from-literal=username=your-username \
   --from-literal=password=your-password \
-  -n supplychain-digital-twin
+  -n supplychain-digital
 
 # Databricks
 kubectl create secret generic databricks-secret \
   --from-literal=workspace-url=your-url \
   --from-literal=access-token=your-token \
-  -n supplychain-digital-twin
+  -n supplychain-digital
 ```
 
 ### 3. Deploy Services
@@ -111,7 +111,7 @@ kubectl apply -f k8s/frontend-deployment.yaml
 ### 4. Verify Deployment
 
 ```bash
-kubectl get all -n supplychain-digital-twin
+kubectl get all -n supplychain-digital
 ```
 
 ## Databricks Setup
@@ -167,8 +167,8 @@ The CI/CD pipeline will:
 docker-compose logs -f
 
 # Kubernetes
-kubectl logs -f deployment/backend -n supplychain-digital-twin
-kubectl logs -f deployment/frontend -n supplychain-digital-twin
+kubectl logs -f deployment/backend -n supplychain-digital
+kubectl logs -f deployment/frontend -n supplychain-digital
 ```
 
 ## Troubleshooting

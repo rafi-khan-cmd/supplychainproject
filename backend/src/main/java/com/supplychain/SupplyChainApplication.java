@@ -8,9 +8,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @SpringBootApplication
 @EnableAsync
 @EnableScheduling
-public class DigitalTwinApplication {
+public class SupplyChainApplication {
     public static void main(String[] args) {
-        SpringApplication.run(DigitalTwinApplication.class, args);
+        SpringApplication.run(SupplyChainApplication.class, args);
     }
 }
 

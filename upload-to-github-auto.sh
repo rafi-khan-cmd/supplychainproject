@@ -41,7 +41,7 @@ git add -A
 CHANGES=$(git status --short)
 if [ -n "$CHANGES" ]; then
     echo -e "${BLUE}💾 Committing changes...${NC}"
-    git commit -m "Update: Supply Chain Digital Twin project
+    git commit -m "Update: Supply Chain Digital project
 
 - Backend: Spring Boot application
 - Frontend: Angular application  

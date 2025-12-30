@@ -2,7 +2,7 @@
 
 ## System Architecture
 
-The Supply Chain Digital Twin is a microservices-based application with the following components:
+The Supply Chain Digital is a microservices-based application with the following components:
 
 ### Frontend (Angular)
 - **Location**: `frontend/`

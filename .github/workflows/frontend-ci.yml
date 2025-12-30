@@ -53,5 +53,5 @@ jobs:
       if: github.ref == 'refs/heads/main'
       run: |
         echo "Deployment would happen here"
-        # kubectl set image deployment/frontend frontend=supplychain/frontend:${{ github.sha }} -n supplychain-digital-twin
+        # kubectl set image deployment/frontend frontend=supplychain/frontend:${{ github.sha }} -n supplychain-digital
 

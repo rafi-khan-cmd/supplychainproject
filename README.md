@@ -1,4 +1,4 @@
-# Supply Chain Digital Twin
+# Supply Chain Digital
 
 A comprehensive supply chain simulation and optimization platform that enables users to build scenarios, run simulations, and compare cost/service impacts.
 
